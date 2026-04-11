@@ -20,8 +20,8 @@
 		<selenium.version>4.40.0</selenium.version>
 		<log4jcore.version>2.17.2</log4jcore.version>
 		<log4japi.version>2.17.2</log4japi.version>
-		<cucumberjava.version>7.34.2</cucumberjava.version>
-		<cucumberjunit.version>7.34.2</cucumberjunit.version>
+		<cucumberjava.version>7.12.0</cucumberjava.version>
+		<cucumberjunit.version>7.12.0</cucumberjunit.version>
 		<commons.version>2.11.0</commons.version>
 		<pdf.version>1.8.1</pdf.version>
 		<recorder.version>0.7.7.0</recorder.version>
@@ -49,12 +49,7 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>${apachepoi.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-api</artifactId>
-			<version>${junit.version}</version>
-			<scope>test</scope>
-		</dependency>
+		
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
