@@ -4,7 +4,7 @@ ETQ utilisateur je souhaite chercher le nom du produit
 
 
 @productname
-Scenario:Je souhaite tester la page LOGIN
+Scenario:Je  souhaite tester le nom de produit
 Given Je visite l'application NopCommerce 
 When Je saisis l'adresse mail "admin@yourstore.com"
 And Je saisis le login "admin"

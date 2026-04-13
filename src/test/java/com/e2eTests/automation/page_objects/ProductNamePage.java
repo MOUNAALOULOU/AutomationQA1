@@ -13,10 +13,10 @@ public class ProductNamePage extends BasePage {
 	
 	
 
-	@FindBy(how = How.XPATH, using = "//p[normalize-space()='Logout']")
+	@FindBy(how = How.XPATH, using = "//p[normalize-space()='Dashboard']")
 	private static WebElement catalogBtn;
 
-	@FindBy(how = How.XPATH, using = "/html/body/div[3]/aside/div/nav/ul/li[2]/ul/li[1]/a")
+	@FindBy(how = How.XPATH, using = "//p[normalize-space()='Products']")
 	private static WebElement productsBtn;
 
 	@FindBy(how = How.ID, using = "SearchProductName")
