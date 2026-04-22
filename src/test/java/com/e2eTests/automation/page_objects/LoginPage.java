@@ -23,6 +23,11 @@ public class LoginPage extends BasePage {
 	private static WebElement btnLogin;
 	
 	
+	@FindBy(how = How.XPATH, using = "//div[@class='message-error validation-summary-errors']")
+	private static WebElement errorMessage;
+	
+	
+	
 	public LoginPage() {
 		super(Setup.getDriver());
 	}
@@ -41,6 +46,9 @@ public class LoginPage extends BasePage {
 		return btnLogin;
 	}
 	
+	public static WebElement getErrorMessage() {
+		return errorMessage;
+	}
 	
 
 }
